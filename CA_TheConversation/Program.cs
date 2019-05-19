@@ -64,6 +64,10 @@ namespace TheConversation
                 Console.Write("What is your favorite ski?");
                 favoriteSki = Console.ReadLine();
                 Console.WriteLine("So, {0}, you like {1} skis.", userName, favoriteSki);
+
+                //
+                // get the user's type of skiing
+                //
             }
             else // user does not like to ski
             {
