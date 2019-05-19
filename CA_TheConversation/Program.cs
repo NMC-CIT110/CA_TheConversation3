@@ -68,6 +68,43 @@ namespace TheConversation
                 //
                 // get the user's type of skiing
                 //
+                Console.WriteLine();
+                Console.WriteLine("I am interested in what kind of skiing you do.");
+                Console.Write("Do you prefer \"downhill\" or \"back country\"");
+                typeOfSkiing = Console.ReadLine();
+
+                //
+                // get the user's favorite area
+                //
+                Console.WriteLine();
+                Console.WriteLine("What is your favorite area to ski.");
+                favoriteArea = Console.ReadLine();
+
+                //
+                // provide feedback on the type of skiing
+                //
+                Console.WriteLine();
+                if (typeOfSkiing == "downhill")
+                {
+                    Console.WriteLine("I have downhill skied for most of my life, but gave it up last year.");
+                    Console.WriteLine($"I hear the {favoriteArea} is a great place to ski {userName}.");
+                }
+                else if (typeOfSkiing == "back country")
+                {
+                    Console.WriteLine("I spend most of my time skiing now in back country.");
+                    Console.WriteLine($"Well{userName}, I am not sure I have skied at {favoriteArea}. I will have to give it a try." );
+                }
+                else // user's response was not valid
+                {
+                    Console.WriteLine("I am afraid I don't recognize that type of skiing.");
+                }
+
+                //
+                // thank the user and say good bye
+                //
+                Console.WriteLine();
+                Console.WriteLine($"{}, it has been great getting learn more about your skiing interests.");
+                Console.WriteLine("Have a nice day.");
             }
             else // user does not like to ski
             {
