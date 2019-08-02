@@ -8,9 +8,10 @@ namespace TheConversation
 {
 
     // *************************************************************
-    // Application:     The Conversation Starter Solution
+    // Application:     The Conversation
     // Author:          Velis, John E
-    // Description:     Start solution for the project.
+    // Description:     An application that has a conversation with the user
+    //                  about skiing.
     // Date Created:    5/20/2016
     // Date Revised:    7/7/2016
     // *************************************************************
